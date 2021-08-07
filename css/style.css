@@ -325,10 +325,12 @@ header .container {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  color: var(--network-color);
 }
 
 .team-contacts-link:hover,
 .team-contacts-link:focus {
+  color: var(--accent-color-secondary);
   background-color: var(--accent-color-primary);
 }
 
@@ -337,12 +339,12 @@ header .container {
 }
 
 .team-contacts-icon {
-  fill: var(--network-color);
+  fill: currentColor;
 }
 
 .team-contacts-icon:hover,
 .team-contacts-icon:focus {
-  fill: var(--accent-color-secondary);
+  fill: currentColor;
 }
 
 /*Our clients*/
@@ -373,22 +375,24 @@ header .container {
   height: 92px;
   justify-content: center;
   align-items: center;
+  color: var(--network-color);
   border: 1px solid var(--network-color);
   border-radius: 4px;
 }
 
 .clients-link:hover,
 .clients-link:focus {
+  color: var(--accent-color-primary);
   border-color: var(--accent-color-primary);
 }
 
 .clients-icon {
-  fill: var(--network-color);
+  fill: currentColor;
 }
 
 .clients-icon:hover,
 .clients-icon:focus {
-  fill: var(--accent-color-primary);
+  fill: currentColor;
 }
 
 /*Footer*/
@@ -476,11 +480,13 @@ address {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  color: var(--network-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-link:hover,
 .footer-link:focus {
+  color: var(--accent-color-secondary);
   background-color: var(--accent-color-primary);
 }
 
@@ -489,12 +495,12 @@ address {
 }
 
 .footer-icon {
-  fill: var(--network-color);
+  fill: currentColor;
 }
 
 .footer-icon:hover,
 .footer-icon:focus {
-  fill: var(--accent-color-secondary);
+  fill: currentColor;
 }
 
 /*Potrfolio page content*/
