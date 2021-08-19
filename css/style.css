@@ -315,7 +315,7 @@ header .container {
   line-height: 1.19;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .team-contacts-link {
@@ -412,7 +412,7 @@ header .container {
 }
 
 .footer-section-address {
-  margin-right: 30px;
+  margin-right: 86px;
 }
 
 .logo-footer {
@@ -480,13 +480,12 @@ address {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: var(--network-color);
+  color: var(--accent-color-secondary);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-link:hover,
 .footer-link:focus {
-  color: var(--accent-color-secondary);
   background-color: var(--accent-color-primary);
 }
 
@@ -562,11 +561,6 @@ address {
   margin: 15px;
 }
 
-.portfolio-card-item:hover,
-.portfolio-card-item:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
-
 .portfolio-card-bottom {
   padding: 20px 24px;
   border-bottom: 1px solid var(--portfolio-border);
@@ -576,6 +570,12 @@ address {
 
 .portfolio-card-link {
   text-decoration: none;
+  display: block;
+}
+
+.portfolio-card-link:hover,
+.portfolio-card-link:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-card-title {
